@@ -1,0 +1,14 @@
+# ~/.config/git/config
+[user]
+  name = Jamie Hands
+  email = jamie_hands0@protonmail.com
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadingindex = true
+
+[advice]
+  addEmptyPathspec = false
+  pushNonFastForward = false
+  statusHints = false
