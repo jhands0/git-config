@@ -12,3 +12,9 @@
   addEmptyPathspec = false
   pushNonFastForward = false
   statusHints = false
+
+[url "git@github.com:jhands0/"]
+  insteadof = "jh:"
+
+[url "git@github.com:"]
+  insteadof = "gh:"
