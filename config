@@ -41,3 +41,16 @@
 [interactive]
   diffFilter = diff-so-fancy --patch
   singleKey = true
+
+[push]
+  autoSetupRemote = true
+  default = current
+  followTags = true
+
+[pull]
+  default = current
+  rebase = true
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = warn
