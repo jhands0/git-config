@@ -34,6 +34,8 @@
 
 [pager]
   diff = diff-so-fancy | $PAGER
+  branch = false
+  tag = false
 
 [diff-so-fancy]
   markEmptyLines = false
@@ -64,3 +66,16 @@
   branch = blue
   tag = yellow
   remoteBranch = magenta
+
+[color "branch"]
+  current   = magenta
+  local     = default
+  remote    = yellow
+  upstream  = green
+  plain     = blue
+
+[branch]
+  sort = -committerdate
+
+[tag]
+  sort = -taggerdate
