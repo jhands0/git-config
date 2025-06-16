@@ -37,3 +37,7 @@
 
 [diff-so-fancy]
   markEmptyLines = false
+
+[interactive]
+  diffFilter = diff-so-fancy --patch
+  singleKey = true
