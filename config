@@ -44,6 +44,9 @@
   diffFilter = diff-so-fancy --patch
   singleKey = true
 
+[commit]
+  template = ~/.config/git/template
+
 [push]
   autoSetupRemote = true
   default = current
