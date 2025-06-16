@@ -21,3 +21,8 @@
 
 [init]
   defaultBranch = dev
+
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
