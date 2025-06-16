@@ -26,3 +26,14 @@
   branch = true
   showStash = true
   showUntrackedFiles = all
+
+[diff]
+  context = 3
+  renames = copies
+  interHunkContext = 10
+
+[pager]
+  diff = diff-so-fancy | $PAGER
+
+[diff-so-fancy]
+  markEmptyLines = false
