@@ -13,11 +13,11 @@
   pushNonFastForward = false
   statusHints = false
 
-[url "https://github.com/jhands0/"]
-  insteadof = "jh/"
+[url "git@github.com:jhands0/"]
+  insteadof = "jh:"
 
-[url "https://github.com/"]
-  insteadof = "gh/"
+[url "git@github.com:"]
+  insteadof = "gh:"
 
 [init]
   defaultBranch = dev
